@@ -95,6 +95,8 @@ func (game *GameState) RunGame() {
 			fmt.Printf("Resposta incorreta! A resposta correta é %d\n", question.Answer)
 			game.Points = "0"
 		}
+
+
 	}
 }
 
